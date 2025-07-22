@@ -1,0 +1,66 @@
+# Ignore everything by default
+*
+
+# Allow specific directories and files
+!src/
+!web/
+!web/**
+!Wasabii.sql
+!.gitignore
+!nbproject/
+!nbproject/**
+!src/java/
+!src/java/**
+
+
+# Nhưng vẫn ignore nbproject/private và mọi file bên trong
+nbproject/private/
+
+# But still ignore specific files within allowed directories
+src/java/DB/db.properties
+src/java/resources/
+src/java/DB/JDBCConnection.java
+lib/
+
+# Ignore build artifacts and IDE files
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.orig
+*.iml
+*.ipr
+*.iws
+*~
+*.bak
+*.swp
+*.tmp
+*.swo
+hs_err_pid*
+replay_pid*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE directories
+.vscode/
+target/
+.gradle/
+build/
+dist/
+nbbuild/
+nbdist/
+.netbeans/
+
+# Ignore build.xml
+build.xml
+
+# Allow specific files within web directory
+!web/js/
+!web/js/*
+
+# Cho phép folder config và tất cả file bên trong
+!src/java/config/
+!src/java/config/**

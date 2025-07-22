@@ -1,0 +1,7 @@
+firstName,lastName,email,gender,mobile,dateOfBirth,expectedResult
+John,Doe,john.doe@example.com,Male,1234567890,15 Aug 1990,success
+Jane,Smith,jane.smith@example.com,Female,9876543210,20 Sep 1995,success
+"","","","","",15 Aug 1990,error
+Invalid,"",invalid-email,Other,123,01 Jan 2000,error
+Test,User,test@test.com,Male,12345,31 Dec 1999,error
+
